@@ -1,0 +1,55 @@
+// Colors
+$pri-col: #373737;
+$sec-col: #DCDCDC;
+$ter-col: #F4F4F4;
+
+
+// Fonts
+$fon-fam-pri: 'Ovo', serif;
+$fon-fam-sec: 'Quattrocento Sans', sans-serif;
+
+// Breakpoints
+$container-size-xxl: 1500px; // desktop and beyond
+$container-size-xl: 1366px; // desktop and beyond
+$container-size-l: 1200px; // laptop
+$container-size-ml: 1000px; // border between desktop/tablet
+$container-size-m: 768px; // tablet
+$container-size-s: 480px; // mobile
+$container-size-xs: 320px; // minimum size
+
+// Margins
+$margin-size-s: 1rem; // tiny margin
+$margin-size-m: 2rem; // small margin
+$margin-size-l: 5rem; // big margin
+
+// Paddings
+$padding-size-s: 1rem; // tiny padding
+$padding-size-m: 2rem; // medium padding
+$padding-size-l: 5rem; // big padding
+
+
+/* Mediaquery example --------------------
+
+@media only screen and (max-width: $container-size-m) {
+
+}
+
+*/
+
+
+/* IE 11 only example ---------------------
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	justify-content: space-around; // IE11 fix
+
+}
+
+*/ 
+
+/* Safari only
+
+_::-webkit-full-page-media, _:future, :root {
+	//  Define here the CSS styles applied only to Safari browsers
+}
+
+*/

@@ -1,0 +1,35 @@
+body, html {
+	font-family: $fon-fam-pri;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.1rem;
+
+}
+
+body {
+	background-color: $ter-col;
+	color: $pri-col;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: $fon-fam-sec;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 2.5rem;
+	line-height: 3rem;
+	margin-bottom: 1rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	line-height: 2.3rem;
+	margin-bottom: 1rem;
+}
+
+p {
+	width: 100%;
+	max-width: 45rem;
+	line-height: 1.5rem;
+}
